@@ -66,7 +66,6 @@ var (
 			Name:      deployerKey.Name,
 			Namespace: deployerKey.Namespace,
 			Labels:    map[string]string{"deployer-type": deployerType},
-			// Annotations: map[string]string{"app.ibm.com/is-default-deployer": "true"},
 		},
 		Spec: deployerv1alpha1.DeployerSpec{
 			Type: deployerType,
